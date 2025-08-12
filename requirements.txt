@@ -2,3 +2,5 @@ networkx
 numpy
 pandas
 tqdm
+scipy
+gudhi
