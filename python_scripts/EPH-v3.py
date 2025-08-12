@@ -121,14 +121,7 @@ def add_eph_and_corr_to_csv(csv_path, graph):
 def main():
     # Network and CSV details
     network_list = ['email_eu_modified','conf','school']
-    network_list = ['smallworld_p0.1','smallworld_p0.2','smallworld_p0.3','smallworld_p0.4',
- 'smallworld_p0.5','smallworld_p0.6','smallworld_p0.7','smallworld_p0.8','smallworld_p0.9']
-#     network_list = ['barabasi_albert']
-
     simple_betas = [0.02, 0.03, 0.04, 0.05]
-    simple_betas = [0.02, 0.03, 0.04, 0.05]
-#     simple_betas = [0.02,0.021,0.022,0.023,0.024,0.025,0.026,0.027,0.028,0.029,0.03,0.031,0.032,0.033,0.021, 0.03, 0.04, 0.05]
-    complex_thetas = [2, 3, 4, 5, 6, 7, 8, 9]
     complex_thetas = [2, 3, 4, 5, 6, 7, 8, 9]
     complex_probs = [0.02]
 
